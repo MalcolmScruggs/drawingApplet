@@ -66,12 +66,11 @@ class App extends React.Component {
                         </div>
                         <div className="row ml-2 mt-2">
                             Select Fill Color
-                            <div className="btn btn-primary mx-2" onClick={() => this.setState({ lineColor: "#000000"})}>Black</div>
+                            <div className="btn btn-primary mx-2" onClick={() => this.setState({ fillColor: "#000000"})}>Black</div>
                             <div style={{backgroundColor: "red"}} className="btn btn-primary mr-2" onClick={() => this.setState({ fillColor: "red"})}>Red</div>
                             <div style={{backgroundColor: "green"}} className="btn btn-primary mr-2" onClick={() => this.setState({ fillColor: "green"})}>Green</div>
                             <div style={{backgroundColor: "blue"}} className="btn btn-primary mr-2" onClick={() => this.setState({ fillColor: "blue"})}>Blue</div>
                             <div style={{backgroundColor: "yellow", color:"black"}} className="btn btn-primary mr-2" onClick={() => this.setState({ fillColor: "yellow"})}>Yellow</div>
-
                             <div className="btn btn-primary mr-2" onClick={() => this.setState({ fillColor: "transparent"})}>none</div>
                         </div>
                         <div className="row ml-2 mt-2">
